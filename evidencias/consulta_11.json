@@ -1,0 +1,84 @@
+{
+  "numero": 11,
+  "consulta": "MATCH (e:Estudiante) OPTIONAL MATCH (e)-[r:PIDIO_DULCES]->(:Casa)\nRETURN e.id AS estudiante, count(r) AS visitas, sum(r.cantidad) AS dulces\nORDER BY dulces DESC, estudiante",
+  "filas": [
+    {
+      "estudiante": "Tomás",
+      "visitas": 5,
+      "dulces": 7
+    },
+    {
+      "estudiante": "Camila",
+      "visitas": 5,
+      "dulces": 6
+    },
+    {
+      "estudiante": "Joaquín",
+      "visitas": 5,
+      "dulces": 6
+    },
+    {
+      "estudiante": "Matías",
+      "visitas": 5,
+      "dulces": 6
+    },
+    {
+      "estudiante": "Benjamín",
+      "visitas": 5,
+      "dulces": 5
+    },
+    {
+      "estudiante": "Catalina",
+      "visitas": 5,
+      "dulces": 5
+    },
+    {
+      "estudiante": "Fernanda",
+      "visitas": 5,
+      "dulces": 5
+    },
+    {
+      "estudiante": "Francisca",
+      "visitas": 5,
+      "dulces": 5
+    },
+    {
+      "estudiante": "Isidora",
+      "visitas": 5,
+      "dulces": 5
+    },
+    {
+      "estudiante": "Nicolás",
+      "visitas": 5,
+      "dulces": 5
+    },
+    {
+      "estudiante": "Valentina",
+      "visitas": 5,
+      "dulces": 5
+    },
+    {
+      "estudiante": "Antonia",
+      "visitas": 5,
+      "dulces": 4
+    },
+    {
+      "estudiante": "Diego",
+      "visitas": 5,
+      "dulces": 4
+    },
+    {
+      "estudiante": "Sebastián",
+      "visitas": 5,
+      "dulces": 3
+    },
+    {
+      "estudiante": "Vicente",
+      "visitas": 5,
+      "dulces": 3
+    }
+  ],
+  "base": "neo4j",
+  "tiempo_disponible_ms": 1,
+  "tiempo_consumido_ms": 3
+}

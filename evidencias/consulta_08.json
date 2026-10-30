@@ -1,0 +1,16 @@
+{
+  "numero": 8,
+  "consulta": "MATCH (e:Estudiante)-[r:PIDIO_DULCES]->(c:Casa)\nRETURN e.id AS estudiante, c.id AS casa, c.direccion AS direccion,\n       r.cantidad AS cantidad, r.tipo AS tipo\nORDER BY estudiante, casa LIMIT 1",
+  "filas": [
+    {
+      "estudiante": "Antonia",
+      "casa": 1,
+      "direccion": "Mundo de Jack",
+      "cantidad": 0,
+      "tipo": "Ninguno"
+    }
+  ],
+  "base": "neo4j",
+  "tiempo_disponible_ms": 2,
+  "tiempo_consumido_ms": 2
+}

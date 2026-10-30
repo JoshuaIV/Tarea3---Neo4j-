@@ -1,0 +1,2474 @@
+{
+  "numero": 7,
+  "consulta": "MATCH (n) OPTIONAL MATCH (n)-[r:PIDIO_DULCES]->(m)\nRETURN n, r, m",
+  "filas": [
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:0",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Casa del leñador",
+          "id": 8
+        }
+      },
+      "r": null,
+      "m": null
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Casa del cuero",
+          "id": 9
+        }
+      },
+      "r": null,
+      "m": null
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:2",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Pizzeria de H&W",
+          "id": 10
+        }
+      },
+      "r": null,
+      "m": null
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:3",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Matías"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1161928703861587971",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:3",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:0",
+        "properties": {
+          "tipo": "Chocolate (MVP)",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:0",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Casa del leñador",
+          "id": 8
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:3",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Matías"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1152921504606846979",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:3",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1",
+        "properties": {
+          "tipo": "Masticable de platano",
+          "cantidad": 2
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Casa del cuero",
+          "id": 9
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:3",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Matías"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1159676904047902723",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:3",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:41",
+        "properties": {
+          "tipo": "Chocolate (MVP)",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:41",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Mansión del conde",
+          "id": 2
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:3",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Matías"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1157425104234217475",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:3",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:43",
+        "properties": {
+          "tipo": "Grosso",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:43",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Guarida del lobo",
+          "id": 4
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:3",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Matías"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1155173304420532227",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:3",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:44",
+        "properties": {
+          "tipo": "Masticable de platano",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:44",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Vault 77",
+          "id": 5
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:4",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Valentina"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1159676904047902724",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:4",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1",
+        "properties": {
+          "tipo": "Osito gominola (verde)",
+          "cantidad": 2
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Casa del cuero",
+          "id": 9
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:4",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Valentina"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1155173304420532228",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:4",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:41",
+        "properties": {
+          "tipo": "Ninguno",
+          "cantidad": 0
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:41",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Mansión del conde",
+          "id": 2
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:4",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Valentina"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1161928703861587972",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:4",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:43",
+        "properties": {
+          "tipo": "Grosso",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:43",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Guarida del lobo",
+          "id": 4
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:4",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Valentina"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1152921504606846980",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:4",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:44",
+        "properties": {
+          "tipo": "Masticable de platano",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:44",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Vault 77",
+          "id": 5
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:4",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Valentina"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1157425104234217476",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:4",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:46",
+        "properties": {
+          "tipo": "Masticable de platano",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:46",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Casa de Gasper",
+          "id": 7
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:5",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Sebastián"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1155173304420532229",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:5",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:2",
+        "properties": {
+          "tipo": "Ninguno",
+          "cantidad": 0
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:2",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Pizzeria de H&W",
+          "id": 10
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:5",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Sebastián"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1161928703861587973",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:5",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:40",
+        "properties": {
+          "tipo": "Chocolate (MVP)",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:40",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Mundo de Jack",
+          "id": 1
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:5",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Sebastián"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1159676904047902725",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:5",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:41",
+        "properties": {
+          "tipo": "Chocolate (MVP)",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:41",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Mansión del conde",
+          "id": 2
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:5",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Sebastián"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1157425104234217477",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:5",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:42",
+        "properties": {
+          "tipo": "Ninguno",
+          "cantidad": 0
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:42",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Castillo de la bestia",
+          "id": 3
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:5",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Sebastián"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1152921504606846981",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:5",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:44",
+        "properties": {
+          "tipo": "Osito gominola (verde)",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:44",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Vault 77",
+          "id": 5
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:6",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Camila"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1155173304420532230",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:6",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:0",
+        "properties": {
+          "tipo": "Masticable de platano",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:0",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Casa del leñador",
+          "id": 8
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:6",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Camila"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1152921504606846982",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:6",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:2",
+        "properties": {
+          "tipo": "Grosso",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:2",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Pizzeria de H&W",
+          "id": 10
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:6",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Camila"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1159676904047902726",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:6",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:40",
+        "properties": {
+          "tipo": "Masticable de platano",
+          "cantidad": 2
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:40",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Mundo de Jack",
+          "id": 1
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:6",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Camila"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1157425104234217478",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:6",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:43",
+        "properties": {
+          "tipo": "Masticable de platano",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:43",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Guarida del lobo",
+          "id": 4
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:6",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Camila"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1161928703861587974",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:6",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:45",
+        "properties": {
+          "tipo": "Grosso",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:45",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Lago de Jason",
+          "id": 6
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:7",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Joaquín"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1159676904047902727",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:7",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:0",
+        "properties": {
+          "tipo": "Osito gominola (verde)",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:0",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Casa del leñador",
+          "id": 8
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:7",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Joaquín"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1152921504606846983",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:7",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:2",
+        "properties": {
+          "tipo": "Grosso",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:2",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Pizzeria de H&W",
+          "id": 10
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:7",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Joaquín"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1157425104234217479",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:7",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:43",
+        "properties": {
+          "tipo": "Osito gominola (verde)",
+          "cantidad": 2
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:43",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Guarida del lobo",
+          "id": 4
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:7",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Joaquín"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1155173304420532231",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:7",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:44",
+        "properties": {
+          "tipo": "Grosso",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:44",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Vault 77",
+          "id": 5
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:7",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Joaquín"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1161928703861587975",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:7",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:46",
+        "properties": {
+          "tipo": "Grosso",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:46",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Casa de Gasper",
+          "id": 7
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:8",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Isidora"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1159676904047902728",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:8",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:0",
+        "properties": {
+          "tipo": "Masticable de platano",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:0",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Casa del leñador",
+          "id": 8
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:8",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Isidora"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1157425104234217480",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:8",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1",
+        "properties": {
+          "tipo": "Chocolate (MVP)",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Casa del cuero",
+          "id": 9
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:8",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Isidora"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1161928703861587976",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:8",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:41",
+        "properties": {
+          "tipo": "Osito gominola (verde)",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:41",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Mansión del conde",
+          "id": 2
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:8",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Isidora"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1155173304420532232",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:8",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:43",
+        "properties": {
+          "tipo": "Grosso",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:43",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Guarida del lobo",
+          "id": 4
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:8",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Isidora"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1152921504606846984",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:8",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:45",
+        "properties": {
+          "tipo": "Chocolate (MVP)",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:45",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Lago de Jason",
+          "id": 6
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:9",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Benjamín"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1155173304420532233",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:9",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1",
+        "properties": {
+          "tipo": "Chocolate (MVP)",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Casa del cuero",
+          "id": 9
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:9",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Benjamín"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1152921504606846985",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:9",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:2",
+        "properties": {
+          "tipo": "Chocolate (MVP)",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:2",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Pizzeria de H&W",
+          "id": 10
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:9",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Benjamín"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1157425104234217481",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:9",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:42",
+        "properties": {
+          "tipo": "Ninguno",
+          "cantidad": 0
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:42",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Castillo de la bestia",
+          "id": 3
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:9",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Benjamín"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1161928703861587977",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:9",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:43",
+        "properties": {
+          "tipo": "Masticable de platano",
+          "cantidad": 2
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:43",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Guarida del lobo",
+          "id": 4
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:9",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Benjamín"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1159676904047902729",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:9",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:46",
+        "properties": {
+          "tipo": "Osito gominola (verde)",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:46",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Casa de Gasper",
+          "id": 7
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:10",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Catalina"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1152921504606846986",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:10",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1",
+        "properties": {
+          "tipo": "Masticable de platano",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Casa del cuero",
+          "id": 9
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:10",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Catalina"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1159676904047902730",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:10",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:40",
+        "properties": {
+          "tipo": "Osito gominola (verde)",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:40",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Mundo de Jack",
+          "id": 1
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:10",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Catalina"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1157425104234217482",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:10",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:41",
+        "properties": {
+          "tipo": "Osito gominola (verde)",
+          "cantidad": 2
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:41",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Mansión del conde",
+          "id": 2
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:10",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Catalina"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1161928703861587978",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:10",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:45",
+        "properties": {
+          "tipo": "Ninguno",
+          "cantidad": 0
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:45",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Lago de Jason",
+          "id": 6
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:10",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Catalina"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1155173304420532234",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:10",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:46",
+        "properties": {
+          "tipo": "Grosso",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:46",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Casa de Gasper",
+          "id": 7
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:11",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Tomás"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1159676904047902731",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:11",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:0",
+        "properties": {
+          "tipo": "Osito gominola (verde)",
+          "cantidad": 2
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:0",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Casa del leñador",
+          "id": 8
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:11",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Tomás"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1157425104234217483",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:11",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:2",
+        "properties": {
+          "tipo": "Grosso",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:2",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Pizzeria de H&W",
+          "id": 10
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:11",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Tomás"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1155173304420532235",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:11",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:42",
+        "properties": {
+          "tipo": "Grosso",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:42",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Castillo de la bestia",
+          "id": 3
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:11",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Tomás"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1152921504606846987",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:11",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:43",
+        "properties": {
+          "tipo": "Grosso",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:43",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Guarida del lobo",
+          "id": 4
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:11",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Tomás"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1161928703861587979",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:11",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:45",
+        "properties": {
+          "tipo": "Grosso",
+          "cantidad": 2
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:45",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Lago de Jason",
+          "id": 6
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:12",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Fernanda"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1152921504606846988",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:12",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1",
+        "properties": {
+          "tipo": "Chocolate (MVP)",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Casa del cuero",
+          "id": 9
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:12",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Fernanda"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1157425104234217484",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:12",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:2",
+        "properties": {
+          "tipo": "Osito gominola (verde)",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:2",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Pizzeria de H&W",
+          "id": 10
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:12",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Fernanda"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1155173304420532236",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:12",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:41",
+        "properties": {
+          "tipo": "Chocolate (MVP)",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:41",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Mansión del conde",
+          "id": 2
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:12",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Fernanda"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1159676904047902732",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:12",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:44",
+        "properties": {
+          "tipo": "Ninguno",
+          "cantidad": 0
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:44",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Vault 77",
+          "id": 5
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:12",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Fernanda"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1161928703861587980",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:12",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:46",
+        "properties": {
+          "tipo": "Masticable de platano",
+          "cantidad": 2
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:46",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Casa de Gasper",
+          "id": 7
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:13",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Vicente"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1159676904047902733",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:13",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:0",
+        "properties": {
+          "tipo": "Grosso",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:0",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Casa del leñador",
+          "id": 8
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:13",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Vicente"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1155173304420532237",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:13",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1",
+        "properties": {
+          "tipo": "Masticable de platano",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Casa del cuero",
+          "id": 9
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:13",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Vicente"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1161928703861587981",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:13",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:2",
+        "properties": {
+          "tipo": "Grosso",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:2",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Pizzeria de H&W",
+          "id": 10
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:13",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Vicente"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1152921504606846989",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:13",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:44",
+        "properties": {
+          "tipo": "Ninguno",
+          "cantidad": 0
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:44",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Vault 77",
+          "id": 5
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:13",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Vicente"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1157425104234217485",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:13",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:46",
+        "properties": {
+          "tipo": "Ninguno",
+          "cantidad": 0
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:46",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Casa de Gasper",
+          "id": 7
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:14",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Antonia"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1152921504606846990",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:14",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:0",
+        "properties": {
+          "tipo": "Grosso",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:0",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Casa del leñador",
+          "id": 8
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:14",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Antonia"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1159676904047902734",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:14",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:2",
+        "properties": {
+          "tipo": "Chocolate (MVP)",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:2",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Pizzeria de H&W",
+          "id": 10
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:14",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Antonia"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1155173304420532238",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:14",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:40",
+        "properties": {
+          "tipo": "Ninguno",
+          "cantidad": 0
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:40",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Mundo de Jack",
+          "id": 1
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:14",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Antonia"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1161928703861587982",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:14",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:45",
+        "properties": {
+          "tipo": "Osito gominola (verde)",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:45",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Lago de Jason",
+          "id": 6
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:14",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Antonia"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1157425104234217486",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:14",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:46",
+        "properties": {
+          "tipo": "Masticable de platano",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:46",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Casa de Gasper",
+          "id": 7
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:15",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Diego"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1152921504606846991",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:15",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1",
+        "properties": {
+          "tipo": "Ninguno",
+          "cantidad": 0
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Casa del cuero",
+          "id": 9
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:15",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Diego"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1159676904047902735",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:15",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:42",
+        "properties": {
+          "tipo": "Chocolate (MVP)",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:42",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Castillo de la bestia",
+          "id": 3
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:15",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Diego"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1155173304420532239",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:15",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:44",
+        "properties": {
+          "tipo": "Osito gominola (verde)",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:44",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Vault 77",
+          "id": 5
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:15",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Diego"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1157425104234217487",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:15",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:45",
+        "properties": {
+          "tipo": "Osito gominola (verde)",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:45",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Lago de Jason",
+          "id": 6
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:15",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Diego"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1161928703861587983",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:15",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:46",
+        "properties": {
+          "tipo": "Masticable de platano",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:46",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Casa de Gasper",
+          "id": 7
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:38",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Francisca"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1159676904047902758",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:38",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:2",
+        "properties": {
+          "tipo": "Grosso",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:2",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Pizzeria de H&W",
+          "id": 10
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:38",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Francisca"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1157425104234217510",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:38",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:43",
+        "properties": {
+          "tipo": "Masticable de platano",
+          "cantidad": 2
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:43",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Guarida del lobo",
+          "id": 4
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:38",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Francisca"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1161928703861588006",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:38",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:44",
+        "properties": {
+          "tipo": "Osito gominola (verde)",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:44",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Vault 77",
+          "id": 5
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:38",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Francisca"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1155173304420532262",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:38",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:45",
+        "properties": {
+          "tipo": "Chocolate (MVP)",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:45",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Lago de Jason",
+          "id": 6
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:38",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Francisca"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1152921504606847014",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:38",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:46",
+        "properties": {
+          "tipo": "Ninguno",
+          "cantidad": 0
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:46",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Casa de Gasper",
+          "id": 7
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:39",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Nicolás"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1161928703861588007",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:39",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:0",
+        "properties": {
+          "tipo": "Chocolate (MVP)",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:0",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Casa del leñador",
+          "id": 8
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:39",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Nicolás"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1157425104234217511",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:39",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1",
+        "properties": {
+          "tipo": "Chocolate (MVP)",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Casa del cuero",
+          "id": 9
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:39",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Nicolás"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1152921504606847015",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:39",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:41",
+        "properties": {
+          "tipo": "Grosso",
+          "cantidad": 1
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:41",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Mansión del conde",
+          "id": 2
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:39",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Nicolás"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1159676904047902759",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:39",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:43",
+        "properties": {
+          "tipo": "Grosso",
+          "cantidad": 2
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:43",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Guarida del lobo",
+          "id": 4
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:39",
+        "labels": [
+          "Estudiante"
+        ],
+        "properties": {
+          "id": "Nicolás"
+        }
+      },
+      "r": {
+        "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1155173304420532263",
+        "type": "PIDIO_DULCES",
+        "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:39",
+        "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:45",
+        "properties": {
+          "tipo": "Ninguno",
+          "cantidad": 0
+        }
+      },
+      "m": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:45",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Lago de Jason",
+          "id": 6
+        }
+      }
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:40",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Mundo de Jack",
+          "id": 1
+        }
+      },
+      "r": null,
+      "m": null
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:41",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Mansión del conde",
+          "id": 2
+        }
+      },
+      "r": null,
+      "m": null
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:42",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Castillo de la bestia",
+          "id": 3
+        }
+      },
+      "r": null,
+      "m": null
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:43",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Guarida del lobo",
+          "id": 4
+        }
+      },
+      "r": null,
+      "m": null
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:44",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Vault 77",
+          "id": 5
+        }
+      },
+      "r": null,
+      "m": null
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:45",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Lago de Jason",
+          "id": 6
+        }
+      },
+      "r": null,
+      "m": null
+    },
+    {
+      "n": {
+        "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:46",
+        "labels": [
+          "Casa"
+        ],
+        "properties": {
+          "direccion": "Casa de Gasper",
+          "id": 7
+        }
+      },
+      "r": null,
+      "m": null
+    }
+  ],
+  "base": "neo4j",
+  "tiempo_disponible_ms": 1,
+  "tiempo_consumido_ms": 5
+}

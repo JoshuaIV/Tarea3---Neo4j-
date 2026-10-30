@@ -1,0 +1,5 @@
+.local/
+herramientas/
+tmp/
+__pycache__/
+*.dump

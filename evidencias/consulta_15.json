@@ -1,0 +1,14 @@
+{
+  "numero": 15,
+  "consulta": "CALL gds.graph.project('halloween', ['Estudiante', 'Casa'],\n     {PIDIO_DULCES: {orientation: 'NATURAL'}})\nYIELD graphName, nodeCount, relationshipCount\nRETURN graphName, nodeCount, relationshipCount",
+  "filas": [
+    {
+      "graphName": "halloween",
+      "nodeCount": 25,
+      "relationshipCount": 75
+    }
+  ],
+  "base": "neo4j",
+  "tiempo_disponible_ms": 1,
+  "tiempo_consumido_ms": 23
+}

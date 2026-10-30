@@ -1,0 +1,34 @@
+{
+  "numero": 19,
+  "consulta": "CALL gds.nodeSimilarity.stream('halloween', {\n     similarityMetric:'JACCARD', topK:14, similarityCutoff:0.0001})\nYIELD node1, node2, similarity\nWITH gds.util.asNode(node1) AS a, gds.util.asNode(node2) AS b, similarity\nWHERE a:Estudiante AND b:Estudiante AND a.id < b.id\nRETURN a.id AS estudiante1, b.id AS estudiante2, similarity\nORDER BY similarity DESC, estudiante1, estudiante2 LIMIT 5",
+  "filas": [
+    {
+      "estudiante1": "Isidora",
+      "estudiante2": "Nicolás",
+      "similarity": 1.0
+    },
+    {
+      "estudiante1": "Antonia",
+      "estudiante2": "Camila",
+      "similarity": 0.6666666666666666
+    },
+    {
+      "estudiante1": "Camila",
+      "estudiante2": "Tomás",
+      "similarity": 0.6666666666666666
+    },
+    {
+      "estudiante1": "Fernanda",
+      "estudiante2": "Valentina",
+      "similarity": 0.6666666666666666
+    },
+    {
+      "estudiante1": "Fernanda",
+      "estudiante2": "Vicente",
+      "similarity": 0.6666666666666666
+    }
+  ],
+  "base": "neo4j",
+  "tiempo_disponible_ms": 1,
+  "tiempo_consumido_ms": 34
+}

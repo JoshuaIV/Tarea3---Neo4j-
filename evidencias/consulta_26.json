@@ -1,0 +1,12 @@
+{
+  "numero": 26,
+  "consulta": "CALL gds.graph.exists('halloween') YIELD exists RETURN exists",
+  "filas": [
+    {
+      "exists": false
+    }
+  ],
+  "base": "neo4j",
+  "tiempo_disponible_ms": 1,
+  "tiempo_consumido_ms": 0
+}

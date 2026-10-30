@@ -1,0 +1,29 @@
+{
+  "numero": 20,
+  "consulta": "MATCH (a:Estudiante {id:'Isidora'})-[:PIDIO_DULCES]->(c:Casa)\n      <-[:PIDIO_DULCES]-(b:Estudiante {id:'Nicolás'})\nRETURN c.id AS id, c.direccion AS direccion ORDER BY id",
+  "filas": [
+    {
+      "id": 2,
+      "direccion": "Mansión del conde"
+    },
+    {
+      "id": 4,
+      "direccion": "Guarida del lobo"
+    },
+    {
+      "id": 6,
+      "direccion": "Lago de Jason"
+    },
+    {
+      "id": 8,
+      "direccion": "Casa del leñador"
+    },
+    {
+      "id": 9,
+      "direccion": "Casa del cuero"
+    }
+  ],
+  "base": "neo4j",
+  "tiempo_disponible_ms": 0,
+  "tiempo_consumido_ms": 3
+}

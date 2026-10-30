@@ -1,0 +1,69 @@
+{
+  "numero": 13,
+  "consulta": "MATCH (e:Estudiante)-[r:PIDIO_DULCES]->(c:Casa) WHERE r.cantidad = 0\nRETURN e.id AS estudiante, c.direccion AS direccion, r.tipo AS tipo\nORDER BY estudiante, direccion",
+  "filas": [
+    {
+      "estudiante": "Antonia",
+      "direccion": "Mundo de Jack",
+      "tipo": "Ninguno"
+    },
+    {
+      "estudiante": "Benjamín",
+      "direccion": "Castillo de la bestia",
+      "tipo": "Ninguno"
+    },
+    {
+      "estudiante": "Catalina",
+      "direccion": "Lago de Jason",
+      "tipo": "Ninguno"
+    },
+    {
+      "estudiante": "Diego",
+      "direccion": "Casa del cuero",
+      "tipo": "Ninguno"
+    },
+    {
+      "estudiante": "Fernanda",
+      "direccion": "Vault 77",
+      "tipo": "Ninguno"
+    },
+    {
+      "estudiante": "Francisca",
+      "direccion": "Casa de Gasper",
+      "tipo": "Ninguno"
+    },
+    {
+      "estudiante": "Nicolás",
+      "direccion": "Lago de Jason",
+      "tipo": "Ninguno"
+    },
+    {
+      "estudiante": "Sebastián",
+      "direccion": "Castillo de la bestia",
+      "tipo": "Ninguno"
+    },
+    {
+      "estudiante": "Sebastián",
+      "direccion": "Pizzeria de H&W",
+      "tipo": "Ninguno"
+    },
+    {
+      "estudiante": "Valentina",
+      "direccion": "Mansión del conde",
+      "tipo": "Ninguno"
+    },
+    {
+      "estudiante": "Vicente",
+      "direccion": "Casa de Gasper",
+      "tipo": "Ninguno"
+    },
+    {
+      "estudiante": "Vicente",
+      "direccion": "Vault 77",
+      "tipo": "Ninguno"
+    }
+  ],
+  "base": "neo4j",
+  "tiempo_disponible_ms": 1,
+  "tiempo_consumido_ms": 1
+}

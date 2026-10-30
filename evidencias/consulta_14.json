@@ -1,0 +1,14 @@
+{
+  "numero": 14,
+  "consulta": "MATCH (:Estudiante)-[r:PIDIO_DULCES]->(:Casa)\nWITH count(r) AS total, sum(CASE WHEN r.cantidad = 0 THEN 1 ELSE 0 END) AS sinDulces\nRETURN sinDulces, total,\n       CASE WHEN total = 0 THEN 0.0 ELSE 100.0 * sinDulces / total END AS porcentaje",
+  "filas": [
+    {
+      "sinDulces": 12,
+      "total": 75,
+      "porcentaje": 16.0
+    }
+  ],
+  "base": "neo4j",
+  "tiempo_disponible_ms": 0,
+  "tiempo_consumido_ms": 1
+}

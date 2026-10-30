@@ -1,0 +1,29 @@
+{
+  "numero": 10,
+  "consulta": "MATCH (c:Casa) OPTIONAL MATCH (:Estudiante)-[r:PIDIO_DULCES]->(c)\nWITH c, count(r) AS visitas\nWITH collect({id:c.id, direccion:c.direccion, visitas:visitas}) AS ranking,\n     max(visitas) AS maximo\nUNWIND ranking AS fila\nWITH fila, maximo WHERE fila.visitas = maximo\nRETURN fila.id AS id, fila.direccion AS direccion, fila.visitas AS visitas\nORDER BY id",
+  "filas": [
+    {
+      "id": 4,
+      "direccion": "Guarida del lobo",
+      "visitas": 9
+    },
+    {
+      "id": 7,
+      "direccion": "Casa de Gasper",
+      "visitas": 9
+    },
+    {
+      "id": 9,
+      "direccion": "Casa del cuero",
+      "visitas": 9
+    },
+    {
+      "id": 10,
+      "direccion": "Pizzeria de H&W",
+      "visitas": 9
+    }
+  ],
+  "base": "neo4j",
+  "tiempo_disponible_ms": 0,
+  "tiempo_consumido_ms": 3
+}

@@ -1,0 +1,102 @@
+{
+  "numero": 24,
+  "consulta": "MATCH (a:Estudiante {id:'Isidora'}), (b:Estudiante {id:'Nicolás'})\nOPTIONAL MATCH p=shortestPath((a)-[:PIDIO_DULCES*1..24]-(b))\nRETURN p, length(p) AS longitud, nodes(p) AS recorrido,\n       [n IN nodes(p) | CASE WHEN n:Estudiante THEN n.id ELSE n.direccion END] AS nombres",
+  "filas": [
+    {
+      "p": {
+        "nodes": [
+          {
+            "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:8",
+            "labels": [
+              "Estudiante"
+            ],
+            "properties": {
+              "id": "Isidora"
+            }
+          },
+          {
+            "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:0",
+            "labels": [
+              "Casa"
+            ],
+            "properties": {
+              "direccion": "Casa del leñador",
+              "id": 8
+            }
+          },
+          {
+            "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:39",
+            "labels": [
+              "Estudiante"
+            ],
+            "properties": {
+              "id": "Nicolás"
+            }
+          }
+        ],
+        "relationships": [
+          {
+            "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1159676904047902728",
+            "type": "PIDIO_DULCES",
+            "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:8",
+            "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:0",
+            "properties": {
+              "tipo": "Masticable de platano",
+              "cantidad": 1
+            }
+          },
+          {
+            "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1161928703861588007",
+            "type": "PIDIO_DULCES",
+            "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:39",
+            "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:0",
+            "properties": {
+              "tipo": "Chocolate (MVP)",
+              "cantidad": 1
+            }
+          }
+        ],
+        "length": 2
+      },
+      "longitud": 2,
+      "recorrido": [
+        {
+          "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:8",
+          "labels": [
+            "Estudiante"
+          ],
+          "properties": {
+            "id": "Isidora"
+          }
+        },
+        {
+          "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:0",
+          "labels": [
+            "Casa"
+          ],
+          "properties": {
+            "direccion": "Casa del leñador",
+            "id": 8
+          }
+        },
+        {
+          "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:39",
+          "labels": [
+            "Estudiante"
+          ],
+          "properties": {
+            "id": "Nicolás"
+          }
+        }
+      ],
+      "nombres": [
+        "Isidora",
+        "Casa del leñador",
+        "Nicolás"
+      ]
+    }
+  ],
+  "base": "neo4j",
+  "tiempo_disponible_ms": 3,
+  "tiempo_consumido_ms": 1
+}

@@ -1,0 +1,59 @@
+{
+  "numero": 16,
+  "consulta": "CALL gds.degree.stream('halloween', {orientation:'REVERSE'})\nYIELD nodeId, score\nWITH gds.util.asNode(nodeId) AS casa, score WHERE casa:Casa\nRETURN casa.id AS id, casa.direccion AS direccion, score\nORDER BY score DESC, id",
+  "filas": [
+    {
+      "id": 4,
+      "direccion": "Guarida del lobo",
+      "score": 9.0
+    },
+    {
+      "id": 7,
+      "direccion": "Casa de Gasper",
+      "score": 9.0
+    },
+    {
+      "id": 9,
+      "direccion": "Casa del cuero",
+      "score": 9.0
+    },
+    {
+      "id": 10,
+      "direccion": "Pizzeria de H&W",
+      "score": 9.0
+    },
+    {
+      "id": 5,
+      "direccion": "Vault 77",
+      "score": 8.0
+    },
+    {
+      "id": 6,
+      "direccion": "Lago de Jason",
+      "score": 8.0
+    },
+    {
+      "id": 8,
+      "direccion": "Casa del leñador",
+      "score": 8.0
+    },
+    {
+      "id": 2,
+      "direccion": "Mansión del conde",
+      "score": 7.0
+    },
+    {
+      "id": 1,
+      "direccion": "Mundo de Jack",
+      "score": 4.0
+    },
+    {
+      "id": 3,
+      "direccion": "Castillo de la bestia",
+      "score": 4.0
+    }
+  ],
+  "base": "neo4j",
+  "tiempo_disponible_ms": 0,
+  "tiempo_consumido_ms": 15
+}

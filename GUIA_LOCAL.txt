@@ -1,0 +1,52 @@
+TAREA 3 - NEO4J
+==============
+
+ENTREGA
+El ZIP output/Carlon-Serin.zip contiene solamente:
+  Carlon-Serin.pdf
+  consultas.cypher
+
+El informe contiene las respuestas, los resultados reales y las capturas.
+No adjuntar tarea.dump ni la carpeta herramientas a la entrega en Aula.
+El respaldo original permanece intacto en esta carpeta.
+
+ENTORNO INSTALADO
+Neo4j Desktop: 2.3.0
+Instancia: Tarea 3 - Halloween
+Neo4j: 2026.10.1 Enterprise
+Graph Data Science: 2026.10.1
+Base del caso: neo4j
+Conexion local: bolt://127.0.0.1:7687
+Usuario: neo4j
+
+La credencial local se encuentra en .local/conexion.json.
+Es un archivo privado para acceder a esta instancia; no se incluye en el ZIP
+ni en el PDF y esta excluido de Git mediante .gitignore.
+
+PARA VOLVER A PRACTICAR
+1. Abrir Neo4j Desktop desde Inicio y seleccionar Instances.
+2. Iniciar Tarea 3 - Halloween si aparece detenida.
+3. Usar Connect > Query y confirmar Database: neo4j.
+4. Ejecutar las consultas de consultas.cypher por separado, en orden.
+5. Crear halloween antes de Degree Centrality y Node Similarity.
+6. Ejecutar el cierre solamente al terminar de practicar esos algoritmos.
+
+El trabajo final ya libero halloween: gds.graph.exists devolvio false.
+Los 15 estudiantes, 10 casas y 75 visitas se conservan en la base original.
+Si se repite la creacion mientras existe halloween, liberar solo esa
+proyeccion mediante CALL gds.graph.drop('halloween', false).
+Nunca borrar ni modificar los datos originales del caso.
+
+TRAZABILIDAD LOCAL
+evidencias/consulta_01.json a consulta_26.json: consulta y resultado real.
+evidencias/capturas/: capturas originales de Neo4j Desktop Query.
+generar_informe.py: generacion del informe a partir de esas evidencias.
+verificar_consultas.py: ejecucion de la secuencia, usando la credencial local.
+herramientas/: instalador y dependencias auxiliares; no son entregables.
+
+RESULTADOS PRINCIPALES
+Ganador: Tomas, 7 dulces en 5 visitas.
+Casas con mas visitas: IDs 4, 7, 9 y 10, con 9 cada una.
+Visitas sin dulces: 12 de 75, equivalentes al 16 por ciento.
+Pareja con maxima similitud: Isidora y Nicolas, Jaccard = 1.
+Camino minimo de esa pareja: 2 relaciones.

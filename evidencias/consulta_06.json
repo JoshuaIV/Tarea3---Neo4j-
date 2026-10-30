@@ -1,0 +1,12 @@
+{
+  "numero": 6,
+  "consulta": "MATCH (:Estudiante)-[r:PIDIO_DULCES]->(:Casa) RETURN count(r) AS visitas",
+  "filas": [
+    {
+      "visitas": 75
+    }
+  ],
+  "base": "neo4j",
+  "tiempo_disponible_ms": 0,
+  "tiempo_consumido_ms": 1
+}

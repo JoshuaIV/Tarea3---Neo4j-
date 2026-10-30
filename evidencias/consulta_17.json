@@ -1,0 +1,29 @@
+{
+  "numero": 17,
+  "consulta": "CALL gds.degree.stream('halloween', {orientation:'REVERSE'})\nYIELD nodeId, score\nWITH gds.util.asNode(nodeId) AS casa, score WHERE casa:Casa\nWITH collect({id:casa.id, direccion:casa.direccion, score:score}) AS ranking,\n     max(score) AS maximo\nUNWIND ranking AS fila\nWITH fila, maximo WHERE fila.score = maximo\nRETURN fila.id AS id, fila.direccion AS direccion, fila.score AS score\nORDER BY id",
+  "filas": [
+    {
+      "id": 4,
+      "direccion": "Guarida del lobo",
+      "score": 9.0
+    },
+    {
+      "id": 7,
+      "direccion": "Casa de Gasper",
+      "score": 9.0
+    },
+    {
+      "id": 9,
+      "direccion": "Casa del cuero",
+      "score": 9.0
+    },
+    {
+      "id": 10,
+      "direccion": "Pizzeria de H&W",
+      "score": 9.0
+    }
+  ],
+  "base": "neo4j",
+  "tiempo_disponible_ms": 1,
+  "tiempo_consumido_ms": 9
+}

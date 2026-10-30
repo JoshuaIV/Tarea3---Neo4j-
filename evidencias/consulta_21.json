@@ -1,0 +1,30 @@
+{
+  "numero": 21,
+  "consulta": "MATCH (a:Estudiante {id:'Isidora'})-[:PIDIO_DULCES]->(ca:Casa)\nWITH a, collect(DISTINCT ca.id) AS casasA\nMATCH (b:Estudiante {id:'Nicolás'})-[:PIDIO_DULCES]->(cb:Casa)\nWITH a, b, casasA, collect(DISTINCT cb.id) AS casasB\nWITH a, b, casasA, casasB, [c IN casasA WHERE c IN casasB] AS comunes\nRETURN a.id AS estudiante1, b.id AS estudiante2, casasA, casasB,\n       size(comunes) AS interseccion,\n       size(casasA) + size(casasB) - size(comunes) AS union,\n       1.0 * size(comunes) / (size(casasA) + size(casasB) - size(comunes)) AS jaccard",
+  "filas": [
+    {
+      "estudiante1": "Isidora",
+      "estudiante2": "Nicolás",
+      "casasA": [
+        8,
+        9,
+        2,
+        4,
+        6
+      ],
+      "casasB": [
+        8,
+        9,
+        2,
+        4,
+        6
+      ],
+      "interseccion": 5,
+      "union": 5,
+      "jaccard": 1.0
+    }
+  ],
+  "base": "neo4j",
+  "tiempo_disponible_ms": 2,
+  "tiempo_consumido_ms": 2
+}

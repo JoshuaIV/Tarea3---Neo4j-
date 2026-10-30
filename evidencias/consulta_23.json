@@ -1,0 +1,294 @@
+{
+  "numero": 23,
+  "consulta": "MATCH p=(a:Estudiante {id:'Isidora'})-[:PIDIO_DULCES]->(c:Casa)\n      <-[:PIDIO_DULCES]-(b:Estudiante {id:'Nicolás'})\nRETURN p ORDER BY c.id",
+  "filas": [
+    {
+      "p": {
+        "nodes": [
+          {
+            "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:8",
+            "labels": [
+              "Estudiante"
+            ],
+            "properties": {
+              "id": "Isidora"
+            }
+          },
+          {
+            "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:41",
+            "labels": [
+              "Casa"
+            ],
+            "properties": {
+              "direccion": "Mansión del conde",
+              "id": 2
+            }
+          },
+          {
+            "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:39",
+            "labels": [
+              "Estudiante"
+            ],
+            "properties": {
+              "id": "Nicolás"
+            }
+          }
+        ],
+        "relationships": [
+          {
+            "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1161928703861587976",
+            "type": "PIDIO_DULCES",
+            "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:8",
+            "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:41",
+            "properties": {
+              "tipo": "Osito gominola (verde)",
+              "cantidad": 1
+            }
+          },
+          {
+            "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1152921504606847015",
+            "type": "PIDIO_DULCES",
+            "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:39",
+            "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:41",
+            "properties": {
+              "tipo": "Grosso",
+              "cantidad": 1
+            }
+          }
+        ],
+        "length": 2
+      }
+    },
+    {
+      "p": {
+        "nodes": [
+          {
+            "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:8",
+            "labels": [
+              "Estudiante"
+            ],
+            "properties": {
+              "id": "Isidora"
+            }
+          },
+          {
+            "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:43",
+            "labels": [
+              "Casa"
+            ],
+            "properties": {
+              "direccion": "Guarida del lobo",
+              "id": 4
+            }
+          },
+          {
+            "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:39",
+            "labels": [
+              "Estudiante"
+            ],
+            "properties": {
+              "id": "Nicolás"
+            }
+          }
+        ],
+        "relationships": [
+          {
+            "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1155173304420532232",
+            "type": "PIDIO_DULCES",
+            "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:8",
+            "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:43",
+            "properties": {
+              "tipo": "Grosso",
+              "cantidad": 1
+            }
+          },
+          {
+            "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1159676904047902759",
+            "type": "PIDIO_DULCES",
+            "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:39",
+            "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:43",
+            "properties": {
+              "tipo": "Grosso",
+              "cantidad": 2
+            }
+          }
+        ],
+        "length": 2
+      }
+    },
+    {
+      "p": {
+        "nodes": [
+          {
+            "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:8",
+            "labels": [
+              "Estudiante"
+            ],
+            "properties": {
+              "id": "Isidora"
+            }
+          },
+          {
+            "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:45",
+            "labels": [
+              "Casa"
+            ],
+            "properties": {
+              "direccion": "Lago de Jason",
+              "id": 6
+            }
+          },
+          {
+            "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:39",
+            "labels": [
+              "Estudiante"
+            ],
+            "properties": {
+              "id": "Nicolás"
+            }
+          }
+        ],
+        "relationships": [
+          {
+            "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1152921504606846984",
+            "type": "PIDIO_DULCES",
+            "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:8",
+            "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:45",
+            "properties": {
+              "tipo": "Chocolate (MVP)",
+              "cantidad": 1
+            }
+          },
+          {
+            "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1155173304420532263",
+            "type": "PIDIO_DULCES",
+            "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:39",
+            "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:45",
+            "properties": {
+              "tipo": "Ninguno",
+              "cantidad": 0
+            }
+          }
+        ],
+        "length": 2
+      }
+    },
+    {
+      "p": {
+        "nodes": [
+          {
+            "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:8",
+            "labels": [
+              "Estudiante"
+            ],
+            "properties": {
+              "id": "Isidora"
+            }
+          },
+          {
+            "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:0",
+            "labels": [
+              "Casa"
+            ],
+            "properties": {
+              "direccion": "Casa del leñador",
+              "id": 8
+            }
+          },
+          {
+            "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:39",
+            "labels": [
+              "Estudiante"
+            ],
+            "properties": {
+              "id": "Nicolás"
+            }
+          }
+        ],
+        "relationships": [
+          {
+            "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1159676904047902728",
+            "type": "PIDIO_DULCES",
+            "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:8",
+            "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:0",
+            "properties": {
+              "tipo": "Masticable de platano",
+              "cantidad": 1
+            }
+          },
+          {
+            "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1161928703861588007",
+            "type": "PIDIO_DULCES",
+            "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:39",
+            "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:0",
+            "properties": {
+              "tipo": "Chocolate (MVP)",
+              "cantidad": 1
+            }
+          }
+        ],
+        "length": 2
+      }
+    },
+    {
+      "p": {
+        "nodes": [
+          {
+            "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:8",
+            "labels": [
+              "Estudiante"
+            ],
+            "properties": {
+              "id": "Isidora"
+            }
+          },
+          {
+            "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1",
+            "labels": [
+              "Casa"
+            ],
+            "properties": {
+              "direccion": "Casa del cuero",
+              "id": 9
+            }
+          },
+          {
+            "elementId": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:39",
+            "labels": [
+              "Estudiante"
+            ],
+            "properties": {
+              "id": "Nicolás"
+            }
+          }
+        ],
+        "relationships": [
+          {
+            "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1157425104234217480",
+            "type": "PIDIO_DULCES",
+            "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:8",
+            "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1",
+            "properties": {
+              "tipo": "Chocolate (MVP)",
+              "cantidad": 1
+            }
+          },
+          {
+            "elementId": "5:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1157425104234217511",
+            "type": "PIDIO_DULCES",
+            "start": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:39",
+            "end": "4:ec2c04b8-070d-45b1-90e2-a80c1b8e1b68:1",
+            "properties": {
+              "tipo": "Chocolate (MVP)",
+              "cantidad": 1
+            }
+          }
+        ],
+        "length": 2
+      }
+    }
+  ],
+  "base": "neo4j",
+  "tiempo_disponible_ms": 1,
+  "tiempo_consumido_ms": 2
+}

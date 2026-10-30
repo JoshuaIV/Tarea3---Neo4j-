@@ -1,0 +1,79 @@
+{
+  "numero": 22,
+  "consulta": "MATCH (e:Estudiante)-[r:PIDIO_DULCES]->(c:Casa)\nWHERE e.id IN ['Isidora', 'Nicolás']\nRETURN e.id AS estudiante, c.id AS casa, c.direccion AS direccion,\n       r.cantidad AS dulces, r.tipo AS tipo ORDER BY estudiante, casa",
+  "filas": [
+    {
+      "estudiante": "Isidora",
+      "casa": 2,
+      "direccion": "Mansión del conde",
+      "dulces": 1,
+      "tipo": "Osito gominola (verde)"
+    },
+    {
+      "estudiante": "Isidora",
+      "casa": 4,
+      "direccion": "Guarida del lobo",
+      "dulces": 1,
+      "tipo": "Grosso"
+    },
+    {
+      "estudiante": "Isidora",
+      "casa": 6,
+      "direccion": "Lago de Jason",
+      "dulces": 1,
+      "tipo": "Chocolate (MVP)"
+    },
+    {
+      "estudiante": "Isidora",
+      "casa": 8,
+      "direccion": "Casa del leñador",
+      "dulces": 1,
+      "tipo": "Masticable de platano"
+    },
+    {
+      "estudiante": "Isidora",
+      "casa": 9,
+      "direccion": "Casa del cuero",
+      "dulces": 1,
+      "tipo": "Chocolate (MVP)"
+    },
+    {
+      "estudiante": "Nicolás",
+      "casa": 2,
+      "direccion": "Mansión del conde",
+      "dulces": 1,
+      "tipo": "Grosso"
+    },
+    {
+      "estudiante": "Nicolás",
+      "casa": 4,
+      "direccion": "Guarida del lobo",
+      "dulces": 2,
+      "tipo": "Grosso"
+    },
+    {
+      "estudiante": "Nicolás",
+      "casa": 6,
+      "direccion": "Lago de Jason",
+      "dulces": 0,
+      "tipo": "Ninguno"
+    },
+    {
+      "estudiante": "Nicolás",
+      "casa": 8,
+      "direccion": "Casa del leñador",
+      "dulces": 1,
+      "tipo": "Chocolate (MVP)"
+    },
+    {
+      "estudiante": "Nicolás",
+      "casa": 9,
+      "direccion": "Casa del cuero",
+      "dulces": 1,
+      "tipo": "Chocolate (MVP)"
+    }
+  ],
+  "base": "neo4j",
+  "tiempo_disponible_ms": 1,
+  "tiempo_consumido_ms": 3
+}

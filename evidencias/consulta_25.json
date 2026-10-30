@@ -1,0 +1,12 @@
+{
+  "numero": 25,
+  "consulta": "CALL gds.graph.drop('halloween', false) YIELD graphName RETURN graphName",
+  "filas": [
+    {
+      "graphName": "halloween"
+    }
+  ],
+  "base": "neo4j",
+  "tiempo_disponible_ms": 1,
+  "tiempo_consumido_ms": 16
+}

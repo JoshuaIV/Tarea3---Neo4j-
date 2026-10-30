@@ -1,0 +1,59 @@
+{
+  "numero": 9,
+  "consulta": "MATCH (c:Casa) OPTIONAL MATCH (:Estudiante)-[r:PIDIO_DULCES]->(c)\nRETURN c.id AS id, c.direccion AS direccion, count(r) AS visitas\nORDER BY visitas DESC, id",
+  "filas": [
+    {
+      "id": 4,
+      "direccion": "Guarida del lobo",
+      "visitas": 9
+    },
+    {
+      "id": 7,
+      "direccion": "Casa de Gasper",
+      "visitas": 9
+    },
+    {
+      "id": 9,
+      "direccion": "Casa del cuero",
+      "visitas": 9
+    },
+    {
+      "id": 10,
+      "direccion": "Pizzeria de H&W",
+      "visitas": 9
+    },
+    {
+      "id": 5,
+      "direccion": "Vault 77",
+      "visitas": 8
+    },
+    {
+      "id": 6,
+      "direccion": "Lago de Jason",
+      "visitas": 8
+    },
+    {
+      "id": 8,
+      "direccion": "Casa del leñador",
+      "visitas": 8
+    },
+    {
+      "id": 2,
+      "direccion": "Mansión del conde",
+      "visitas": 7
+    },
+    {
+      "id": 1,
+      "direccion": "Mundo de Jack",
+      "visitas": 4
+    },
+    {
+      "id": 3,
+      "direccion": "Castillo de la bestia",
+      "visitas": 4
+    }
+  ],
+  "base": "neo4j",
+  "tiempo_disponible_ms": 1,
+  "tiempo_consumido_ms": 1
+}
